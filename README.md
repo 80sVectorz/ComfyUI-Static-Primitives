@@ -13,7 +13,7 @@ Just clone this repo inside your custom_nodes folder: `git clone https://github.
 There should be a new node category called `primitives`.
 There's a primitive for all the basic data-types.
 
-Here's an example of the original [Sytan's SDXL 1.0 Workflow](https://github.com/SytanSD/Sytan-SDXL-ComfyUI) VS a version that's cleaned up using the static primitives:
+Here's an example of the original [Sytan's SDXL 1.0 Workflow](https://github.com/SytanSD/Sytan-SDXL-ComfyUI) versus a version that's cleaned up using the static primitives:
 ![Example](https://github.com/80sVectorz/ComfyUI-Static-Primitives/blob/main/images/Original.png?raw=true)
 ![Example](https://github.com/80sVectorz/ComfyUI-Static-Primitives/blob/main/images/CleanedUpExample.png?raw=true)
 
