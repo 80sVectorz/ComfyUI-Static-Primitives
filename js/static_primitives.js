@@ -7,7 +7,7 @@ app.registerExtension({
         const staticPrimitiveWidgetIndex = node.widgets?.findIndex((w) => w.name === 'Input_FLOAT' || w.name == 'Input_INT'); 
         if (staticPrimitiveWidgetIndex > -1) {
             const staticPrimitiveWidget = node.widgets[staticPrimitiveWidgetIndex];
-            const staticPrimitiveValueControl = addValueControlWidget(node, staticPrimitiveWidget, "fixed");
+            const staticPrimitiveValueControl = addValueControlWidget(node, staticPrimitiveWidget, "fixed", null, null, [null,null]); // disgusting fix
             node.widgets.splice(staticPrimitiveWidgetIndex+1,0,node.widgets.pop());
         }
     }
