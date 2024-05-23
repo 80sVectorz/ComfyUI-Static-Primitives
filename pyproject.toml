@@ -1,0 +1,14 @@
+[project]
+name = "comfyui-static-primitives"
+description = ""
+version = "1.0.0"
+license = "LICENSE.txt"
+
+[project.urls]
+Repository = "https://github.com/80sVectorz/ComfyUI-Static-Primitives"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = "the80svectorz"
+DisplayName = "ComfyUI-Static-Primitives"
+Icon = ""
