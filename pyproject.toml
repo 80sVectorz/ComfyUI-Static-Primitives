@@ -2,7 +2,7 @@
 name = "comfyui-static-primitives"
 description = ""
 version = "1.0.0"
-license = "LICENSE.txt"
+license = { file = "LICENSE.txt" }
 
 [project.urls]
 Repository = "https://github.com/80sVectorz/ComfyUI-Static-Primitives"
